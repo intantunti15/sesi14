@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Latihan jQUERY 01</title>
+   
+</head>
+<body>
+   
+    <h3>JUDUL</h3>
+    <div id="pesan">Isi Pesan</div>
+    <div class="Pesan">Isi pesan</div>
+
+    <h1>JUDUL</h1>
+    <div id="buku">Isi buku</div>
+    <div class="buku">Isi dalam buku</div>
+
+    <h2>JUDUL</h2>
+    <div id="rumah">Isi rumah</div>
+    <div class="rumah">Isi dalam rumah</div>
+
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#pesan").html("Isi yang baru");
+            $(".Pesan").html("Isi class yang baru");
+            $("h3").html("Belajar jQuery");
+            $("h1").html("belajar buku");
+            $("#buku").html("isi buku baru");
+            $(".buku").html("isi dalam buku yang baru");
+            $("h2").html("rumah");
+            $("#rumah").html("isi rumah baru");
+            $(".rumah").html("isi dalam rumah yang baru");
+        });
+        
+    </script>
+
+   
+
+</body>
+</html>
